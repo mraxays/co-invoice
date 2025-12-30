@@ -92,14 +92,14 @@ This project is licensed under the Creative Commons Attribution-NonCommercial 4.
 
 You are free to:
 
-✅ Use for personal projects
-✅ Modify and adapt the code
-✅ Share with others (with attribution)
+- ✅ Use for personal projects
+- ✅ Modify and adapt the code
+- ✅ Share with others (with attribution)
 
 You are NOT allowed to:
 
-❌ Use for commercial purposes
-❌ Sell or profit from this project
+- ❌ Use for commercial purposes
+- ❌ Sell or profit from this project
 
 For details, see the [LICENSE](LICENSE.md) file or visit [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
 
