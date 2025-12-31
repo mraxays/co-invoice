@@ -58,7 +58,7 @@ function App() {
           </TabsList>
           <TabsContent
             value="edit"
-            className="flex-1 overflow-auto mt-0 bg-background pb-20"
+            className="flex-1 overflow-auto mt-0 bg-background pb-2"
           >
             <EditorSidebar mobileView />
           </TabsContent>
@@ -83,7 +83,7 @@ function App() {
 
   return (
     <>
-      <div className="h-screen w-full bg-background text-foreground flex overflow-hidden font-sans transition-colors duration-300">
+      <div className="h-[93vh] w-full bg-background text-foreground flex overflow-hidden font-sans transition-colors duration-300">
         {/* Sidebar */}
         <aside
           className={`${
