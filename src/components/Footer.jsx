@@ -1,6 +1,6 @@
 import React from "react";
 import useInvoiceStore from "@/store/useInvoiceStore";
-import { Github, Heart } from "lucide-react";
+import { Github, HeartHandshake } from "lucide-react";
 
 export function Footer() {
   const { design } = useInvoiceStore();
@@ -26,7 +26,7 @@ export function Footer() {
             className="font-medium"
             style={{ color: accentHex }}
           >
-            Co-Invoice.
+            <a href="/">Co-Invoice.</a>
           </span>
           <span> Open source invoice generator.</span>
         </div>
@@ -36,7 +36,7 @@ export function Footer() {
             href="https://github.com/mraxays/co-invoice"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 hover:underline"
+            className="inline-flex items-center gap-1.5"
             style={{ color: accentHex }}
           >
             <Github size={16} />
@@ -47,10 +47,10 @@ export function Footer() {
             href="https://github.com/sponsors/mraxays"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 hover:underline"
+            className="inline-flex items-center gap-1.5"
             style={{ color: accentHex }}
           >
-            <Heart size={16} />
+            <HeartHandshake size={16} />
             Sponsor
           </a>
         </div>
