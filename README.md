@@ -1,3 +1,7 @@
+![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-ff7a5e)
+![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue)
+![Stars](https://img.shields.io/github/stars/mraxays/co-invoice?style=social)
+
 # Co-Invoice
 
 Co-Invoice is a modern invoice generator built with React and Tailwind CSS. It lets you create, customize, preview, and export professional invoices with real-time updates and flexible design options.
