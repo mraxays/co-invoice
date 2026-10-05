@@ -7,6 +7,7 @@
 Co-Invoice is a modern invoice generator built with React and Tailwind CSS. It lets you create, customize, preview, and export professional invoices with real-time updates and flexible design options.
 
 ---
+<img width="1535" height="863" alt="image" src="https://github.com/user-attachments/assets/17313ba9-54f6-4f22-93ac-c71498cb51f0" />
 
 ## Features
 
