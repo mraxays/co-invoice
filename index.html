@@ -4,7 +4,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Co-Invoice – Modern Invoice Generator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Primary SEO -->
+  <title>Co-Invoice - Free Online Invoice Generator (PDF)</title>
+  <meta name="description"
+    content="Create professional invoices online in seconds with Co-Invoice, a free, open-source invoice generator. Customize, preview, and download PDF invoices. No signup required." />
+  <meta name="keywords"
+    content="invoice generator, free invoice generator, online invoice maker, PDF invoice, billing, open-source invoice, invoice template, React, Tailwind CSS" />
+  <meta name="author" content="Co-Invoice" />
+  <meta name="application-name" content="Co-Invoice" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <link rel="canonical" href="https://invoice.codezinr.dev/" />
+  <link rel="alternate" hreflang="en" href="https://invoice.codezinr.dev/" />
+  <link rel="alternate" hreflang="x-default" href="https://invoice.codezinr.dev/" />
+
+  <!-- Open Graph (Facebook, LinkedIn, WhatsApp, Slack) -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Co-Invoice" />
+  <meta property="og:title" content="Co-Invoice - Free Online Invoice Generator" />
+  <meta property="og:description"
+    content="Create, customize, and download beautiful PDF invoices in seconds. Free, open-source, no signup." />
+  <meta property="og:url" content="https://invoice.codezinr.dev/" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="https://invoice.codezinr.dev/og-image.png" />
+  <meta property="og:image:secure_url" content="https://invoice.codezinr.dev/og-image.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Co-Invoice invoice generator interface preview" />
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Co-Invoice - Free Online Invoice Generator" />
+  <meta name="twitter:description"
+    content="Create, customize, and download beautiful PDF invoices in seconds. Free and open-source." />
+  <meta name="twitter:image" content="https://invoice.codezinr.dev/og-image.png" />
+  <meta name="twitter:image:alt" content="Co-Invoice invoice generator interface preview" />
+  <!-- <meta name="twitter:site" content="@yourhandle" /> -->
+
+  <!-- Theme / PWA -->
+  <meta name="theme-color" content="#4f46e5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Co-Invoice" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="format-detection" content="telephone=no" />
+
   <!-- Favicons -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
@@ -14,14 +64,111 @@
   <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
   <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
   <link rel="manifest" href="/site.webmanifest" />
-  <meta name="description"
-    content="Co-Invoice is a modern, professional, and open-source invoice generator. Create, customize, and export beautiful invoices with ease." />
-  <meta name="keywords"
-    content="invoice, generator, invoice generator, billing, React, Tailwind CSS, open-source, PDF invoices" />
+
+  <!-- Performance hints (uncomment if you use Google Fonts) -->
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" /> -->
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://invoice.codezinr.dev/#website",
+        "url": "https://invoice.codezinr.dev/",
+        "name": "Co-Invoice",
+        "description": "Free, open-source online invoice generator.",
+        "inLanguage": "en"
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://invoice.codezinr.dev/#organization",
+        "name": "Co-Invoice",
+        "url": "https://invoice.codezinr.dev/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://invoice.codezinr.dev/android-chrome-512x512.png",
+          "width": 512,
+          "height": 512
+        }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://invoice.codezinr.dev/#app",
+        "name": "Co-Invoice",
+        "url": "https://invoice.codezinr.dev/",
+        "description": "Create, customize, and export professional PDF invoices online. Free and open-source.",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Customizable invoice templates",
+          "Live preview",
+          "PDF export",
+          "No signup required",
+          "Open source"
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Co-Invoice free?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Co-Invoice is completely free and open-source."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Do I need an account to create an invoice?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. You can create and download PDF invoices without signing up."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I download my invoice as a PDF?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Customize your invoice, preview it live, and export it as a PDF in one click."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
   <div id="root"></div>
+
+  <noscript>
+    <main style="max-width:720px;margin:48px auto;padding:0 16px;font-family:system-ui,sans-serif;line-height:1.6">
+      <h1>Co-Invoice - Free Online Invoice Generator</h1>
+      <p>Create professional invoices in seconds. Customize your layout, preview it live, and download a PDF. Free,
+        open-source, and no signup required.</p>
+      <h2>Features</h2>
+      <ul>
+        <li>Customizable invoice templates</li>
+        <li>Live preview</li>
+        <li>One-click PDF export</li>
+        <li>Open source</li>
+      </ul>
+      <p>Please enable JavaScript to use the invoice generator.</p>
+    </main>
+  </noscript>
+
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
